@@ -24,7 +24,7 @@
 总结来看，我对vim目前的用途也就仅仅限于：找到根目录，`cd`到`/mnt`中，去`/d`盘编辑我的本地代码（实际上和用pycharm的效果是一样的）。最大的好处是：可以同时编辑py文件和cpp文件（虽然和vscode是一样的）。
 但是配置完成后真的很酷啊！效果图如下：
 ![my_vim_after_setting.png](imgs%2Fmy_vim_after_setting.png)
-![my_vim_after_setting2.png](my_vim_after_setting2.png)
+![my_vim_after_setting2.png](imgs%2Fmy_vim_after_setting2.png)
 
 这里附上我配置vim参考的链接教程：`https://blog.csdn.net/qq_42417071/article/details/139027077` 。
 
