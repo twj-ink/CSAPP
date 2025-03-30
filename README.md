@@ -79,3 +79,8 @@
 
 利用是：要取出x的最高三字节：`x&0xFFFFFF00`
 要取出x的最低一字节：`x&0xFF`
+
+bitset(x,y):把y是1的位置在x中设为1 --> `(x | y)`
+bitclean(x,y):把y是1的位置在x中设为0 --> `(x & ~y)`
+
+实现异或：`x ^ y == bis(bic(x,y), bic(y,x)) --> x ^ y == (x & ~y) | (~x & y)`
