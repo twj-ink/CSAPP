@@ -176,8 +176,8 @@ $$
 $$
 U2T_w=
 \begin{cases}
-x,\,\,x\leq TMax_w\\
-x-2^w,\,\,x > TMax_w\\
+x,x \leq TMax_w\\
+x-2^w,x > TMax_w\\
 \end{cases}
 $$
 其中满足$0\leq x \leq UMax_w$
