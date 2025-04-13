@@ -169,18 +169,19 @@ x+2^w,\ x<0\\
 \end{cases}
 $$
 
-其中满足$TMin_w\leq x \leq TMax_w$
+其中满足$TMin_w \leq x \leq TMax_w$
 
 2. 无符号数转为补码：
 
 $$
 U2T_w=
 \begin{cases}
-x,x \leq TMax_w\\
-x-2^w,x > TMax_w\\
+x,\ x \leq TMax_w\\
+x-2^w,\ x > TMax_w\\
 \end{cases}
 $$
-其中满足$0\leq x \leq UMax_w$
+
+其中满足$0 \leq x \leq UMax_w$
 
 3. C语言中有符号数与无符号数的表示
 
@@ -228,13 +229,13 @@ x'=B2T_k(\overrightarrow{x'})。则有x'=U2T_k(x\mod2^k)。$
 
 无符号数加法：
 
-对满足$0\leq x,y < 2^w$的$x$和$y$有：
+对满足$0 \leq x,y < 2^w$的$x$和$y$有：
 
 $$
 x +_w^{u} y=
 \begin{cases}
-x+y,\,\,x+y<2^w\ (正常)\\
-x+y-2^w,\,\,2^w \leq x+y < 2^{w+1}\ (溢出)\\
+x+y,\ x+y<2^w\ (正常)\\
+x+y-2^w,\ 2^w \leq x+y < 2^{w+1}\ (溢出)\\
 \end{cases}
 $$
 
@@ -249,8 +250,8 @@ $$
 $$
 -_w^{u}x =
 \begin{cases}
-x,\,\,x=0\\
-2^{w}-x,\,\ x>0\\
+x,\ x=0\\
+2^{w}-x,\ x>0\\
 \end{cases}
 $$
 
@@ -267,9 +268,9 @@ $$
 $$
 x +_w^{t} y=
 \begin{cases}
-x+y-2^w,\,\,2^{w-1} \leq x+y \ (正溢出)\\
-x+y,\,\,-2^{w-1} \leq x+y < 2^{w-1} \ (正常)\\
-x+y+2^w,\,\,x+y < -2^{w-1}\ (负溢出)\\
+x+y-2^w,\ 2^{w-1} \leq x+y \ (正溢出)\\
+x+y,\ -2^{w-1} \leq x+y < 2^{w-1} \ (正常)\\
+x+y+2^w,\ x+y < -2^{w-1}\ (负溢出)\\
 \end{cases}
 $$
 
