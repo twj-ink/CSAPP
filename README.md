@@ -164,8 +164,8 @@ $0=[00000000]=0x00$
 $$
 T2U_w=
 \begin{cases}
-x,\,\,x\geq0\\
-x+2^w,\,\,x<0\\
+x,\ x\geq0\\
+x+2^w,\ x<0\\
 \end{cases}
 $$
 
