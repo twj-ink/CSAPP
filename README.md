@@ -28,7 +28,6 @@
 说一下我对vim的感受：无gui的按钮操作，全部都是键盘按键完成（当然这是在关闭鼠标操作设置的前提下，不过我发现即使开启了鼠标的操作功能，在root下开启vim会使用最最最原始的配置），
 而且这个编辑器既然是存在于Linux系统中的，于是可以编写各种代码如python、cpp，并随时保存和在命令行中（编译和）运行，实际上与windows系统中的pycharm或者vscode功能是差不多的。
 
-总结来看，我对vim目前的用途也就仅仅限于：找到根目录，`cd`到`/mnt`中，去`/d`盘编辑我的本地代码（实际上和用pycharm的效果是一样的）。最大的好处是：可以同时编辑py文件和cpp文件（虽然和vscode是一样的）。
 但是配置完成后真的很酷啊！效果图如下（第二张是设置了JetBrains Mono字体的）：
 ![my_vim_after_setting.png](imgs%2Fmy_vim_after_setting.png)
 ![my_vim_after_setting2.png](imgs%2Fmy_vim_after_setting2.png)
@@ -40,6 +39,8 @@
 
 此外，在vim中下载了tmux的包，这样可以在一个窗口中建立多个pane，如在左侧写py代码，在右侧随时执行这个文件，实现和pycharm类似的功能（我的配置中设置了`\1`作为热键在完成操作：
 保存当前代码文件`:w`->向右侧pane中发送指令`python3 %`->将光标移到右侧pane中（这样方便输入测试数据））
+
+其实最后用的还是vscode的ssh（（有点难绷
 
 ### 🚀1. 计算机系统漫游
 
